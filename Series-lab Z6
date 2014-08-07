@@ -1,0 +1,39 @@
+1)
+
+#include "stdafx.h"
+#include "stdio.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+int main ()
+{
+  int n,i=0,S=0;
+  cout<<"Ingresar n";
+  cin>>n;
+  for(i=1;i<=n;i=i+2)
+    S=S+i;	
+  cout<<"La SUMA ES "<<S;
+  getch();
+}
+
+2)
+
+#include "stdafx.h"
+#include "stdio.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+int main ()
+{
+
+  int n,i=0,S=1;
+  cout<<"Ingresar n";
+  cin>>n;
+  for(i=1;i<n;i=i++)
+      S=S+(2*i+1);	
+  cout<<"La SUMA ES "<<S;
+  getch();
+}
+
